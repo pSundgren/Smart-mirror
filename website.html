@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/clockScript.js"></script>
+  <script src="js/busScript.js"></script>
+  <script src="js/weatherScript.js"></script>
+  <script src="js/newsScript.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-text">
+    <p class="btxt">Hello!</p>
+    <p class="btxt">Bonjour!</p>
+    <p class="btxt">Góðan dag!</p>
+    <p class="btxt">Nǐ hǎo!</p>
+    <p class="btxt">Hejsan!</p>
+
+    <script src="js/backgroundText.js"></script>
+  </div>
+
+  <div class="clock">
+    <span class="time" id="time"></span>
+    <span class="seconds" id="seconds"></span>
+  </div>
+  <div class="date" id="date"></div>
+
+  <div class="weather" id="weather">
+      <span id="description"></span>
+      <span class="divider">|</span>
+      <span id="temp"></span>
+  </div>
+
+  <div class="news-container">
+    <div class="news-item">
+      <h1 class="news-title" id="news-title-1"></h1>
+      <p class="news-desc" id="news-description-1"></p>
+      <p id="news-author-1" style="color: #666666; font-size: 10px;"></p>
+    </div>
+    <hr class="stroke" style="width: 100%;">
+    <div class="news-item">
+      <h1 class="news-title" id="news-title-2"></h1>
+      <p class="news-desc" id="news-description-2"></p>
+      <p id="news-author-2" style="color: #666666; font-size: 10px;"></p>
+    </div>
+  </div>
+
+  <div class="bus-container">
+    <div class="bus-item">
+      <span id="bus-origin"></span>
+      <span class="divider">|</span>
+      <span id="bus-dest"></span>
+      <br>
+      <span class="bus-desc" id="bus-desc-0"></span>
+      <span class="divider-bus">|</span>
+      <span class="bus-desc" id="bus-desc-1"></span>
+      <span class="divider-bus">|</span>
+      <span class="bus-desc" id="bus-desc-2"></span>
+      <span class="divider-bus">|</span>
+      <span class="bus-desc" id="bus-desc-3"></span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* BACKGROUND CSS */
+
+.background-text {
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  font-size: 45px;
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.btxt {
+  display: none;
+}
+
+/* CLOCK CSS */
+
+.clock {
+  position: absolute;
+  padding: 0 0 0 25px;
+  margin: 0;
+  z-index: 500;
+}
+
+.time {
+  color: white;
+  font-size: 75px;
+  margin: 0;
+  padding: 0;
+}
+
+.seconds {
+  color: aqua;
+  font-size: 45px;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.date {
+  color: aqua;
+  position: absolute;
+  font-size: 20px;
+  padding: 100px 0 0 30px;
+  z-index: 500;
+}
+
+/* WEATHER CSS */
+
+.weather {
+  text-align: right;
+  padding: 20px 35px 0 0;
+  font-size: 45px;
+}
+
+.divider {
+  color: aqua;
+}
+
+/* NEWS CSS */
+
+.news-container {
+  padding: 0 0 0 25px;
+  position: fixed;
+  bottom: 0;
+  width: 33%;
+}
+
+.news-item {
+  padding-bottom: 10px;
+}
+
+.news-title {
+  font-size: 20px;
+}
+
+.news-desc {
+  font-size: 10px;
+}
+
+.stroke {
+  border: 1px solid aqua;
+}
+
+/* BUS CSS */
+
+.bus-container {
+  text-align: right;
+  padding: 0 25px 0 0;
+  width: 33%;
+  position: fixed;
+  bottom: 25%;
+  right: 0;
+}
+
+.bus-item {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.bus-desc {
+  margin: 0;
+  font-size: 25px;
+  padding: 0 0 10px 0;
+}
+
+.divider-bus {
+  color: aqua;
+  font-size: 25px;
+}
