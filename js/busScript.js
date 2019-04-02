@@ -1,4 +1,4 @@
-var key = "c80ba849-d0f5-445d-bfd2-8199abf0630c";
+var key = "<API key>";
 
 var latOri = "63.819414";
 var longOri = "20.240160";
