@@ -1,4 +1,4 @@
-var key = "fbe789be1cad4c1e8cd7d96e51aa2d94";
+var key = "<API key>";
 
 
 function fetchNews(key) {
