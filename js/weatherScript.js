@@ -1,4 +1,4 @@
-var key = "2bdf0e8bf493bd7aa767695aef77c052";
+var key = "<API key>";
 var umea = 602150;
 
 function weatherBalloon(cityID) {
