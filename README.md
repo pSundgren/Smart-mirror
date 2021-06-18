@@ -1,2 +1,4 @@
 # Smart mirror
-When first learning about HTML, JavaScript and APIs I decided to make the program to be hosted on a Raspberry PI that would be used on a smart mirror in my apartment. The project worked and the program programmed to fetch data based on my location back then. Is uses weather information, news, and local trafic information.
+
+## Description
+When first learning about HTML, JavaScript and APIs I decided to make a website to be hosted on a Raspberry PI that would be used on a smart mirror in my apartment. The webiste works by fetching information like weather, local traffic information, and news to be displayed on the website. The location is hard coded and API fetches are done via a key that to this day is invalid, meaning that the website cannot be used at this moment.
